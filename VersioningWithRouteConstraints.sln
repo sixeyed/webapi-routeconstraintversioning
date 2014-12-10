@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersioningWithRouteConstraints.Api", "VersioningWithRouteConstraints.Api\VersioningWithRouteConstraints.Api.csproj", "{B81C9CBC-97D4-4CBF-8FFC-A416101B2DCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F24CF3CA-746A-40B7-B7CE-5D8F1BB97EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersioningWithRouteConstraints.Api.Tests", "VersioningWithRouteConstraints.Api.Tests\VersioningWithRouteConstraints.Api.Tests.csproj", "{D516EC6A-48FF-4B31-AA0C-54FA454B6851}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B5943FB0-304C-47E3-9885-F0AC081ECF91}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B81C9CBC-97D4-4CBF-8FFC-A416101B2DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81C9CBC-97D4-4CBF-8FFC-A416101B2DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81C9CBC-97D4-4CBF-8FFC-A416101B2DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81C9CBC-97D4-4CBF-8FFC-A416101B2DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D516EC6A-48FF-4B31-AA0C-54FA454B6851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D516EC6A-48FF-4B31-AA0C-54FA454B6851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D516EC6A-48FF-4B31-AA0C-54FA454B6851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D516EC6A-48FF-4B31-AA0C-54FA454B6851}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D516EC6A-48FF-4B31-AA0C-54FA454B6851} = {F24CF3CA-746A-40B7-B7CE-5D8F1BB97EF7}
+	EndGlobalSection
+EndGlobal
